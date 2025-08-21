@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .foto-perfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ddd;
+            margin-bottom: 15px;
+        }
+        h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 15px;
+            color: #555;
+        }
+        .email {
+            margin: 15px 0;
+            font-weight: bold;
+        }
+        .redes-sociais {
+            margin-top: 20px;
+        }
+        .redes-sociais a {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #555;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+        .redes-sociais a:hover {
+            color: #0077b5;
+        }
+    </style>
+    <!-- Importando ícones do Font Awesome -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="foto-perfil">
+        <h1>Seu Nome</h1>
+        <p>Breve descrição sobre você, sua profissão, hobbies ou o que gostaria de compartilhar. Exemplo: Desenvolvedor Front-end apaixonado por tecnologia e design.</p>
+        <p class="email">📧 <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+
+        <div class="redes-sociais">
+            <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://reddit.com" target="_blank"><i class="fab fa-reddit"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</body>
+</html>

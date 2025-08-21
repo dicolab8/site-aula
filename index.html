@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Primeira Página Modificada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        a button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: #fff;
+            color: #2575fc;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        a button:hover {
+            background: #f1f1f1;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Bem-vindo à Minha Página!</h1>
+        <p>Clique no botão abaixo para acessar meu perfil.</p>
+        <a href="perfil.html"><button>Ver Perfil</button></a>
+    </div>
 </body>
 </html>
